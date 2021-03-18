@@ -1,12 +1,13 @@
-package refactoring_guru.abstract_factory.example.buttons;
+package refactoring_guru.abstract_factory.example.buttons.impl;
+
+import refactoring_guru.abstract_factory.example.buttons.Button;
 
 /**
  * EN: All products families have the same varieties (MacOS/Windows).
  *
  * This is a MacOS variant of a button.
  *
- * RU: Все семейства продуктов имеют одни и те же вариации (MacOS/Windows).
- *
+  *
  * Это вариант кнопки под MacOS.
  */
 public class MacOSButton implements Button {

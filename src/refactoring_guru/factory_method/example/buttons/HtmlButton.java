@@ -3,8 +3,7 @@ package refactoring_guru.factory_method.example.buttons;
 /**
  * EN: HTML button implementation.
  *
- * RU: Реализация HTML кнопок.
- */
+  */
 public class HtmlButton implements Button {
 
     public void render() {

@@ -6,8 +6,7 @@ import refactoring_guru.adapter.example.square.SquarePeg;
 /**
  * EN: Adapter allows fitting square pegs into round holes.
  *
- * RU: Адаптер позволяет использовать КвадратныеКолышки и КруглыеОтверстия
- * вместе.
+  * вместе.
  */
 public class SquarePegAdapter extends RoundPeg {
     private SquarePeg peg;

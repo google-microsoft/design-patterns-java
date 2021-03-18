@@ -7,8 +7,7 @@ import javax.swing.*;
 /**
  * EN: Common mediator interface.
  *
- * RU: Общий интерфейс посредников.
- */
+  */
 public interface Mediator {
     void addNewNote(Note note);
     void deleteNote();

@@ -3,8 +3,7 @@ package refactoring_guru.template_method.example.networks;
 /**
  * EN: Class of social network
  *
- * RU: Класс социальной сети.
- */
+  */
 public class Facebook extends Network {
     public Facebook(String userName, String password) {
         this.userName = userName;

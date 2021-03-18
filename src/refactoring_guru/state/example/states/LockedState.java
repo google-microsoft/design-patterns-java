@@ -6,8 +6,7 @@ import refactoring_guru.state.example.ui.Player;
  * EN: Concrete states provide the special implementation for all interface
  * methods.
  *
- * RU: Конкретные состояния реализуют методы абстрактного состояния по-своему.
- */
+  */
 public class LockedState extends State {
 
     LockedState(Player player) {

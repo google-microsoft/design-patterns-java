@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 /**
  * EN: Concrete strategy. Implements credit card payment method.
  *
- * RU: Конкретная стратегия. Реализует оплату корзины интернет магазина
- * кредитной картой клиента.
+  * кредитной картой клиента.
  */
 public class PayByCreditCard implements PayStrategy {
     private final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
@@ -17,8 +16,7 @@ public class PayByCreditCard implements PayStrategy {
     /**
      * EN: Collect credit card data.
      *
-     * RU: Собираем данные карты клиента.
-     */
+          */
     @Override
     public void collectPaymentDetails() {
         try {
@@ -42,8 +40,7 @@ public class PayByCreditCard implements PayStrategy {
     /**
      * EN: After card validation we can charge customer's credit card.
      *
-     * RU: После проверки карты мы можем совершить оплату. Если клиент
-     * продолжает покупки, мы не запрашиваем карту заново.
+          * продолжает покупки, мы не запрашиваем карту заново.
      */
     @Override
     public boolean pay(int paymentAmount) {

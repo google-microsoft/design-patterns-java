@@ -9,8 +9,7 @@ import refactoring_guru.builder.example.director.Director;
 /**
  * EN: Demo class. Everything comes together here.
  *
- * RU: Демо-класс. Здесь всё сводится воедино.
- */
+  */
 public class Demo {
 
     public static void main(String[] args) {

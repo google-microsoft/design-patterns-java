@@ -9,8 +9,7 @@ import refactoring_guru.builder.example.components.TripComputer;
  * EN: Car manual is another product. Note that it does not have the same
  * ancestor as a Car. They are not related.
  *
- * RU: Руководство автомобиля — это второй продукт. Заметьте, что руководство и
- * сам автомобиль не имеют общего родительского класса. По сути, они независимы.
+  * сам автомобиль не имеют общего родительского класса. По сути, они независимы.
  */
 public class Manual {
     private final CarType carType;

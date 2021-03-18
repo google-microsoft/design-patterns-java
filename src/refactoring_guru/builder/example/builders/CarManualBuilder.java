@@ -15,8 +15,7 @@ import refactoring_guru.builder.example.components.TripComputer;
  * built a car. This allows to produce manuals for specific car models,
  * configured with different features.
  *
- * RU: В отличие от других создающих паттернов, Строители могут создавать
- * совершенно разные продукты, не имеющие общего интерфейса.
+  * совершенно разные продукты, не имеющие общего интерфейса.
  *
  * В данном случае мы производим руководство пользователя автомобиля с помощью
  * тех же шагов, что и сами автомобили. Это устройство позволит создавать

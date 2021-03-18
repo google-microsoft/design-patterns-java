@@ -5,8 +5,7 @@ import refactoring_guru.state.example.ui.Player;
 /**
  * EN: They can also trigger state transitions in the context.
  *
- * RU: Они также могут переводить контекст в другие состояния.
- */
+  */
 public class ReadyState extends State {
 
     public ReadyState(Player player) {

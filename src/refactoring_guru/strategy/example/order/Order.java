@@ -7,8 +7,7 @@ import refactoring_guru.strategy.example.strategies.PayStrategy;
  * picked. It uses common strategy interface to delegate collecting payment data
  * to strategy object. It can be used to save order to database.
  *
- * RU: Класс заказа. Ничего не знает о том каким способом (стратегией) будет
- * расчитыватся клиент, а просто вызывает метод оплаты. Все остальное стратегия
+  * расчитыватся клиент, а просто вызывает метод оплаты. Все остальное стратегия
  * делает сама.
  */
 public class Order {

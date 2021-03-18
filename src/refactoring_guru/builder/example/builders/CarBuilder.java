@@ -10,8 +10,7 @@ import refactoring_guru.builder.example.components.TripComputer;
 /**
  * EN: Concrete builders implement steps defined in the common interface.
  *
- * RU: Конкретные строители реализуют шаги, объявленные в общем интерфейсе.
- */
+  */
 public class CarBuilder implements Builder {
     private CarType type;
     private int seats;

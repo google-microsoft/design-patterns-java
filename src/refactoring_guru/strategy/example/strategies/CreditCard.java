@@ -3,8 +3,7 @@ package refactoring_guru.strategy.example.strategies;
 /**
  * EN: Dummy credit card class.
  *
- * RU: Очень наивная реализация кредитной карты.
- */
+  */
 public class CreditCard {
     private int amount;
     private String number;

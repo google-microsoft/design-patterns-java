@@ -14,8 +14,7 @@ import java.util.Map;
 /**
  * EN: World first console e-commerce application.
  *
- * RU: Первый в мире консольный интерет магазин.
- */
+  */
 public class Demo {
     private static Map<Integer, Integer> priceOnProducts = new HashMap<>();
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

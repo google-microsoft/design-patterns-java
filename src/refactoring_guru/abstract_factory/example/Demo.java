@@ -2,14 +2,13 @@ package refactoring_guru.abstract_factory.example;
 
 import refactoring_guru.abstract_factory.example.app.Application;
 import refactoring_guru.abstract_factory.example.factories.GUIFactory;
-import refactoring_guru.abstract_factory.example.factories.MacOSFactory;
-import refactoring_guru.abstract_factory.example.factories.WindowsFactory;
+import refactoring_guru.abstract_factory.example.factories.impl.MacOSFactory;
+import refactoring_guru.abstract_factory.example.factories.impl.WindowsFactory;
 
 /**
  * EN: Demo class. Everything comes together here.
  *
- * RU: Демо-класс. Здесь всё сводится воедино.
- */
+  */
 public class Demo {
 
     /**
@@ -17,8 +16,7 @@ public class Demo {
      * (usually at initialization stage), depending on the configuration or
      * environment variables.
      *
-     * RU: Приложение выбирает тип и создаёт конкретные фабрики динамически
-     * исходя из конфигурации или окружения.
+          * исходя из конфигурации или окружения.
      */
     private static Application configureApplication() {
         Application app;

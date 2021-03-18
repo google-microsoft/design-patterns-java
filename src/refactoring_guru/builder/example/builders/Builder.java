@@ -9,8 +9,7 @@ import refactoring_guru.builder.example.components.TripComputer;
 /**
  * EN: Builder interface defines all possible ways to configure a product.
  *
- * RU: Интерфейс Строителя объявляет все возможные этапы и шаги конфигурации
- * продукта.
+  * продукта.
  */
 public interface Builder {
     void setCarType(CarType type);

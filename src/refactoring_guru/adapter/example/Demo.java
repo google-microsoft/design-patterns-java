@@ -8,8 +8,7 @@ import refactoring_guru.adapter.example.square.SquarePeg;
 /**
  * EN: Somewhere in client code...
  *
- * RU: Где-то в клиентском коде...
- */
+  */
 public class Demo {
     public static void main(String[] args) {
         // EN: Round fits round, no surprise.

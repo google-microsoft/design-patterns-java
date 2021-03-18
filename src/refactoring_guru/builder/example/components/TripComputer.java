@@ -5,8 +5,7 @@ import refactoring_guru.builder.example.cars.Car;
 /**
  * EN: Just another feature of a car.
  *
- * RU: Одна из фишек автомобиля.
- */
+  */
 public class TripComputer {
 
     private Car car;

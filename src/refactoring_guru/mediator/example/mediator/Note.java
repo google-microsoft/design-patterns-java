@@ -3,8 +3,7 @@ package refactoring_guru.mediator.example.mediator;
 /**
  * EN: Note class.
  *
- * RU: Класс заметок.
- */
+  */
 public class Note {
     private String name;
     private String text;

@@ -3,8 +3,7 @@ package refactoring_guru.chain_of_responsibility.example.middleware;
 /**
  * EN: ConcreteHandler. Checks whether there are too many failed login requests.
  *
- * RU: Конкретный элемент цепи обрабатывает запрос по-своему.
- */
+  */
 public class ThrottlingMiddleware extends Middleware {
     private int requestPerMinute;
     private int request;
@@ -23,8 +22,7 @@ public class ThrottlingMiddleware extends Middleware {
      * objects. For instance, an element of a chain can change the order of
      * checks by running its check after all other checks.
      *
-     * RU: Обратите внимание, вызов checkNext() можно вставить как в начале
-     * этого метода, так и в середине или в конце.
+          * этого метода, так и в середине или в конце.
      *
      * Это даёт еще один уровень гибкости по сравнению с проверками в цикле.
      * Например, элемент цепи может пропустить все остальные проверки вперёд и

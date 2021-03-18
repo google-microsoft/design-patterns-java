@@ -8,8 +8,7 @@ import java.util.Map;
 /**
  * EN: Server class.
  *
- * RU: Класс сервера.
- */
+  */
 public class Server {
     private Map<String, String> users = new HashMap<>();
     private Middleware middleware;
@@ -18,8 +17,7 @@ public class Server {
      * EN: Client passes a chain of object to server. This improves flexibility
      * and makes testing the server class easier.
      *
-     * RU: Клиент подаёт готовую цепочку в сервер. Это увеличивает гибкость и
-     * упрощает тестирование класса сервера.
+          * упрощает тестирование класса сервера.
      */
     public void setMiddleware(Middleware middleware) {
         this.middleware = middleware;
@@ -29,8 +27,7 @@ public class Server {
      * EN: Server gets email and password from client and sends the
      * authorization request to the chain.
      *
-     * RU: Сервер получает email и пароль от клиента и запускает проверку
-     * авторизации у цепочки.
+          * авторизации у цепочки.
      */
     public boolean logIn(String email, String password) {
         if (middleware.check(email, password)) {

@@ -12,8 +12,7 @@ import refactoring_guru.builder.example.components.TripComputer;
  * object through common Builder interface. Therefore it may not know what
  * product is being built.
  *
- * RU: Директор знает в какой последовательности заставлять работать строителя.
- * Он работает с ним через общий интерфейс Строителя. Из-за этого, он может не
+  * Он работает с ним через общий интерфейс Строителя. Из-за этого, он может не
  * знать какой конкретно продукт сейчас строится.
  */
 public class Director {
