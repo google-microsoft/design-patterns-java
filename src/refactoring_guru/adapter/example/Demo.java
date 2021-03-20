@@ -12,8 +12,6 @@ import refactoring_guru.adapter.example.square.SquarePeg;
 public class Demo {
     public static void main(String[] args) {
         // EN: Round fits round, no surprise.
-        //
-        // RU: Круглое к круглому — всё работает.
         RoundHole hole = new RoundHole(5);
         RoundPeg rpeg = new RoundPeg(5);
         if (hole.fits(rpeg)) {
